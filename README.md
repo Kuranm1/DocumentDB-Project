@@ -1,8 +1,8 @@
 # Document-Database
-This is Final project for my internship in Atypon 2022
+This is Final project for my internship in Atypon 2022.
 
-- I built document database from scratch using java
-- Queries of the database are based on HTTP Requests
+- I built document database from scratch using Java/SpringBoot.
+- Queries of the database are based on HTTP Requests.
 
 - The the project Consist of three part ( Client <= Master => Nodes)  and DemoApplication uses the client to make CRUD operations on the atabase.
 
