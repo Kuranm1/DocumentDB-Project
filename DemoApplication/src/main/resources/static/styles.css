@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+div {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 4px 10px 4px rgba(0,0,0,0.33);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 4px 10px 4px rgba(0,0,0,0.33);
+}
+
+input{
+    width: 70%;
+    padding: 3%;
+    margin: 5%;
+    border: none;
+    border-radius: 25px;
+
+
+}
+button{
+
+    text-align: center;
+    background-color:#DFEEEA;
+    border: none;
+    width: 30%;
+    margin: 1% auto;
+    border-radius: 15px;
+    font-size: 110%;
+    padding: 1%;
+}
+button:hover{
+    color:#DFEEEA;
+    background-color:#2F5D62;
+}
+
+.logoutButton{
+    color:#DFEEEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#01242b;
+    border: none;
+    width: 5%;
+    margin: 0 auto;
+    border-radius: 35px;
+    font-size: 110%;
+    padding: 1%;
+}
+.loginForm{
+    color: #DFEEEA;
+    width: 40%;
+    overflow: hidden;
+    margin: 2% auto;
+    background: #2F5D62;
+    background: -moz-linear-gradient(top, #2F5D62 0%, #2F5D62 0%, #5E8B7E 100%);
+    background: -webkit-linear-gradient(top, #2F5D62 0%, #2F5D62 0%, #5E8B7E 100%);
+    background: linear-gradient(to bottom, #2F5D62 0%, #2F5D62 0%, #5E8B7E 100%);
+    border-radius: 20px ;
+    text-align: center;
+    padding: 5%;
+    border-style: solid;
+}
+
+.courseStatForm{
+    color: #DFEEEA;
+    width: 40%;
+    overflow: hidden;
+    margin: 3% auto;
+    background: #17393d;
+    border-radius: 35px ;
+    text-align: center;
+    border-style: solid;
+}
+
+.bar{
+
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: #2F5D62;
+    text-align: center;
+    font-size:350%;
+}
+
+label span, label span::selection{
+    font-size:200%; color: transparent; text-shadow: 0 0 0 #DFEEEA;
+}
